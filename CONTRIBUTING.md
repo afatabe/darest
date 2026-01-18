@@ -21,7 +21,7 @@ This project is open to improvements via Issues and Pull Requests.
 
 ### Requirements
 - **Delphi IDE** (Community Edition or higher)
-  - Tested with Delphi 11+, should work with Delphi 10.3+ (FireDAC support required)
+  - Tested with Delphi 12 CE, should work with Delphi 10.3+ (FireDAC support required) with minor changes.
 - **Boss** (Delphi Package Manager) - recommended for dependency management
 - **Git** for version control
 
