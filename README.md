@@ -133,7 +133,7 @@ If you prefer to use the latest version of Swagger UI:
 3. Ensure `swagger-initializer.js` is configured (Darest updates this automatically)
 
 ## Usage
-![Swagger](assets/swagger.png)
+![Swagger](assets/swagger.jpg)
 ### First-Time Setup
 
 1. **Launch Darest**: Run the compiled executable
