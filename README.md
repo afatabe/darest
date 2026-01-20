@@ -29,7 +29,7 @@ Darest is built with a modular architecture:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Darest Application                    │
+│                    Darest Application                   │
 ├─────────────────────────────────────────────────────────┤
 │  UI Layer (VCL)                                         │
 │  ├─ Main UI (Configuration & Control)                   │
@@ -85,7 +85,6 @@ Darest is built with a modular architecture:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd DBRestConnector
    ```
 
 2. Open `Darest.dproj` in Delphi IDE
@@ -107,7 +106,7 @@ Darest is built with a modular architecture:
 
 **For Development:**
 - The `swagger/` folder is included in the repository
-- When running from the IDE, ensure the folder is in your output directory (e.g., `Win32/Debug/swagger/`)
+- When running from the IDE, ensure the folder is in your output directory (e.g., `Win32/Debug/swagger/`), however I'd recommend changing the Project setup and declare a destination folder for the binary.
 
 **For Deployment:**
 - Copy the entire `swagger/` folder to the same directory as `Darest.exe`
@@ -275,6 +274,8 @@ Darest/
 └── [FireDAC drivers]       # Database-specific DLLs if needed
 ```
 
+A version with a web interface is a great idea too. Horse has already everything, so we could compile it for Linux too (with the correct Delphi version, of course).
+
 ## Configuration Files
 
 Darest stores configuration in the following locations:
@@ -412,11 +413,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-**Developed by**: Magnum Labs
+**Developed by**: Magno Lima
 
 **Built with**:
 - [Horse](https://github.com/HashLoad/horse) - RESTful framework for Delphi
-- [FireDAC](https://www.embarcadero.com/products/rad-studio/firedac) - Universal data access library
 - [Swagger UI](https://swagger.io/tools/swagger-ui/) - API documentation interface
 
 ## Support
